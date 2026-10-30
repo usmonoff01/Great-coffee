@@ -1,0 +1,83 @@
+.how__continer {
+  margin-top: 529px;
+  @include Displey();
+  flex-direction: column;
+  justify-content: center;
+}
+
+.how {
+  &__text {
+    font-family: "Fraunces 9pt";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+    margin-left: 130px;
+    color: #83888f;
+  }
+  &__cards {
+    @include Displey();
+    margin-top: 50px;
+    align-items: center;
+    margin-left: 130px;
+  }
+  &__card {
+    width: 35px;
+    height: 35px;
+    border: 4px solid #0e8784;
+    border-radius: 50px;
+  }
+  &__cards2 {
+    @include Displey();
+    align-items: center;
+    justify-content: center;
+    margin-top: 82px;
+    gap: 95px;
+  }
+  &__card1 {
+    width: 285px;
+    height: 355px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    padding: 0 25px;
+  }
+  &__card_img {
+    width: 100px;
+  }
+  &__text1 {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    /* or 112% */
+
+    color: #333d4b;
+  }
+  &__text2 {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    color: #333d4b;
+  }
+  &__btn {
+    @include Btn();
+    margin: 64px 130px;
+    &:hover{
+      background-color:  #66D2CF;
+    }
+  }
+}
+
+hr {
+  width: 200px;
+  border: 1px solid #fdd6ba;
+  height: 0px;
+}

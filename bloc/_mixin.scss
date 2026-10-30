@@ -1,0 +1,22 @@
+@mixin Displey() {
+  display: flex;
+}
+@mixin Btn() {
+width: 217px;
+height: 56px;
+background: #0E8784;
+border-radius: 6px;
+/* Create your plan */
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height, or 139% */
+text-align: center;
+
+color: #FEFCF7;
+
+
+
+}

@@ -1,0 +1,72 @@
+.navbar {
+  @include Displey();
+  justify-content: space-between;
+  align-items: center;
+  &__list {
+    @include Displey();
+    gap:30px;  
+  }
+  &__link {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height, or 125% */
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+
+    color: #83888f;
+
+    &:hover {
+      color: black;
+      transition: all 0.3s linear;
+    }
+  }
+}
+
+.intro {
+  background-image: url("../img/intro.bg.color.png");
+  height: 600px;
+  margin-top: 50px;
+  background-size: cover;
+  border-radius: 6px;
+  padding: 70px 80px;
+  &__contener {
+    @include Displey();
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 0px;
+  }
+  &__title {
+    width: 500px;
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #fefcf7;
+  }
+  &__text {
+    width: 500px;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    color: #fefcf7;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+
+  &__btn {
+    @include Btn();
+    &:hover {
+      background-color: #66d2cf;
+    }
+  }
+  
+}

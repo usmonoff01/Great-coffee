@@ -1,0 +1,51 @@
+.countries {
+  &__continer {
+    margin-top: 168px;
+    padding: 85px;
+  }
+  &__title {
+    font-family: "Fraunces 9pt";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+    color: #83888f;
+  }
+  &__cards {
+    margin-top: 72px;
+    display: flex;
+    gap: 95px;
+  }
+  &__card {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+  }
+  &__img {
+    width: 50px;
+  }
+  &__text {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    /* identical to box height, or 112% */
+
+    color: #333d4b;
+  }
+  &__text2 {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    color: #333d4b;
+  }
+}

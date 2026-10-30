@@ -1,0 +1,30 @@
+.about {
+  background-image: url(../img/about_intro.jpg);
+  background-size: cover;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 130px;
+  &__title {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    /* identical to box height, or 120% */
+
+    color: #d9d7d1;
+  }
+  &__text {
+    width: 450px;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    color: #fefcf7;
+  }
+}
