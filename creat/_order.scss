@@ -1,0 +1,40 @@
+.order {
+  &__continer {
+    background-color: #2c343e;
+    width: 730px;
+    height: 208px;
+    padding: 27px 64px;
+  }
+
+  &__text {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    text-transform: uppercase;
+
+    color: #ffffff;
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  }
+  &__text2 {
+    font-family: "Fraunces ";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 40px;
+    /* or 167% */
+
+    color: #ffffff;
+    span{
+        color: #0E8784;
+    }
+  }
+  &__btn{
+    @include Btn();
+    margin: 40px 0 168px 510px;
+  }
+}

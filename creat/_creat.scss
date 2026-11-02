@@ -1,0 +1,104 @@
+.create__intro {
+  margin-top: 40px;
+  background-image: url(../img/creat__img.png);
+  background-size: cover;
+  height: 450px;
+  padding: 80px;
+  &__title {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    /* identical to box height, or 100% */
+
+    color: #fefcf7;
+  }
+  &__text {
+    width: 450px;
+    margin-top: 30px;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    color: #fefcf7;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+}
+
+.create__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 72px;
+  /* identical to box height, or 100% */
+
+  color: #000000;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.creation__intro_card {
+  margin-top: -300px;
+}
+
+.creat__how__continer {
+  background-color: #2c343e;
+  padding: 80px;
+  border-radius: 8px;
+}
+
+.creat__how {
+  &__cards {
+    display: flex;
+    align-items: center;
+  }
+  &__card {
+    width: 30px;
+    height: 30px;
+    border: 2px solid green;
+    border-radius: 50px;
+  }
+
+  &__cards2 {
+    display: flex;
+    margin-top: 82px;
+    gap: 95px;
+  }
+  &__card1 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: start;
+    justify-content: start;
+    width: 285px;
+    padding: 5px;
+  }
+  &__text1 {
+    width: 220px;
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    /* or 112% */
+
+    color: #fefcf7;
+  }
+  &__text2 {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    color: #fefcf7;
+  }
+}
