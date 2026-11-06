@@ -70,8 +70,8 @@
   &__btn {
     @include Btn();
     margin: 64px 130px;
-    &:hover{
-      background-color:  #66D2CF;
+    &:hover {
+      background-color: #66d2cf;
     }
   }
 }
@@ -80,4 +80,46 @@ hr {
   width: 200px;
   border: 1px solid #fdd6ba;
   height: 0px;
+}
+
+@media only screen and (max-width: 480px) {
+  .how {
+    &__text {
+      margin-top: 150px;
+    }
+    &__cards {
+      display: none;
+    }
+    &__cards2 {
+      flex-direction: column;
+    }
+    &__card1 {
+      justify-content: center;
+      align-items: center;
+    }
+
+    &__text1 {
+      font-style: normal;
+      font-weight: 900;
+      font-size: 28px;
+      line-height: 32px;
+      /* identical to box height, or 114% */
+      text-align: center;
+      color: #333d4b;
+    }
+    &__text2 {  
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 25px;
+      /* or 167% */
+      text-align: center;
+
+      color: #333d4b;
+    }
+    &__btn{
+      margin: auto;
+      margin-top: 50px;
+    }
+  }
 }

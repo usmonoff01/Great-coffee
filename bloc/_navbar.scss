@@ -4,7 +4,7 @@
   align-items: center;
   &__list {
     @include Displey();
-    gap:30px;  
+    gap: 30px;
   }
   &__link {
     font-family: "Barlow";
@@ -21,6 +21,17 @@
     &:hover {
       color: black;
       transition: all 0.3s linear;
+    }
+  }
+  &__burger {
+    flex-direction: column;
+    gap: 3px;
+    display: none;
+    &_item {
+      width: 25px;
+      height: 2px;
+      background-color: black;
+      border-radius: 20px;
     }
   }
 }
@@ -68,5 +79,49 @@
       background-color: #66d2cf;
     }
   }
-  
+}
+
+@media only screen and (max-width: 480px) {
+  .navbar {
+    &__list {
+      display: none;
+    }
+
+    &__burger {
+      display: flex;
+    }
+    &_logo {
+      width: 200px;
+    }
+  }
+  .intro {
+    background-image: 400px;
+    height: 500px;
+    &__title {
+      width: 100%;
+      font-weight: 900;
+      font-size: 38px;
+      line-height: 40px;
+      /* or 100% */
+      text-align: center;
+
+      color: #fefcf7;
+    }
+    &__text {
+      width: 100%;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 25px;
+      /* or 167% */
+      text-align: center;
+
+      color: #fefcf7;
+
+      mix-blend-mode: normal;
+      opacity: 0.8;
+    }
+    &__btn{
+      margin: auto;
+    }
+  }
 }

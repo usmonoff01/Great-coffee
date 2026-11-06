@@ -18,6 +18,12 @@ a {
   padding: 10px 20px;
 }
 
+@media only screen and (max-width: 480px) {
+  .wrapper {
+    width: 100%;
+    padding: 20px 30px;
+  }
+}
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -41,6 +47,17 @@ a {
 .navbar__link:hover {
   color: black;
   transition: all 0.3s linear;
+}
+.navbar__burger {
+  flex-direction: column;
+  gap: 3px;
+  display: none;
+}
+.navbar__burger_item {
+  width: 25px;
+  height: 2px;
+  background-color: black;
+  border-radius: 20px;
 }
 
 .intro {
@@ -97,6 +114,44 @@ a {
   background-color: #66d2cf;
 }
 
+@media only screen and (max-width: 480px) {
+  .navbar__list {
+    display: none;
+  }
+  .navbar__burger {
+    display: flex;
+  }
+  .navbar_logo {
+    width: 200px;
+  }
+  .intro {
+    background-image: 400px;
+    height: 500px;
+  }
+  .intro__title {
+    width: 100%;
+    font-weight: 900;
+    font-size: 38px;
+    line-height: 40px;
+    /* or 100% */
+    text-align: center;
+    color: #fefcf7;
+  }
+  .intro__text {
+    width: 100%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    /* or 167% */
+    text-align: center;
+    color: #fefcf7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+  .intro__btn {
+    margin: auto;
+  }
+}
 .type__continer {
   display: flex;
   gap: 30px;
@@ -124,6 +179,20 @@ a {
   color: #333d4b;
 }
 
+@media only screen and (max-width: 480px) {
+  .type__continer {
+    flex-direction: column;
+  }
+  .type__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .type__subtitle {
+    width: 80%;
+  }
+}
 .whu__continer {
   margin-top: 129px;
   background-color: #2c343d;
@@ -194,6 +263,44 @@ a {
   color: #fefcf7;
 }
 
+@media only screen and (max-width: 480px) {
+  .whu__continer {
+    height: 1000px;
+    border-radius: 8px;
+  }
+  .whu__title {
+    width: 100%;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 28px;
+    /* identical to box height, or 100% */
+    text-align: center;
+    color: #fefcf7;
+  }
+  .whu__text {
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    /* or 167% */
+    text-align: center;
+    color: #fefcf7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+  .whu__cards {
+    flex-direction: column;
+    margin-top: 64px;
+  }
+  .whu__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+  }
+}
 .how__continer {
   margin-top: 529px;
   display: flex;
@@ -277,7 +384,7 @@ a {
   margin: 64px 130px;
 }
 .how__btn:hover {
-  background-color: #66D2CF;
+  background-color: #66d2cf;
 }
 
 hr {
@@ -286,6 +393,43 @@ hr {
   height: 0px;
 }
 
+@media only screen and (max-width: 480px) {
+  .how__text {
+    margin-top: 150px;
+  }
+  .how__cards {
+    display: none;
+  }
+  .how__cards2 {
+    flex-direction: column;
+  }
+  .how__card1 {
+    justify-content: center;
+    align-items: center;
+  }
+  .how__text1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 32px;
+    /* identical to box height, or 114% */
+    text-align: center;
+    color: #333d4b;
+  }
+  .how__text2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    text-align: center;
+    color: #333d4b;
+  }
+  .how__btn {
+    margin: auto;
+    margin-top: 50px;
+  }
+}
 .footer__contener {
   background-color: #2c343e;
   display: flex;
@@ -324,6 +468,20 @@ hr {
   transition: all 0.3s linear;
 }
 
+@media only screen and (max-width: 480px) {
+  .footer__contener {
+    width: 100%;
+    margin-top: 80px;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .footer__list {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+}
 .about {
   background-image: url(../img/about_intro.jpg);
   background-size: cover;

@@ -14,3 +14,13 @@ a{
     width: 1300px;
     padding: 10px 20px;
 }
+
+
+
+@media only screen and (max-width:480px){
+    .wrapper{
+        width: 100%;
+        padding: 20px 30px;
+    }
+    
+}
