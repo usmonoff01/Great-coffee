@@ -49,3 +49,20 @@
     color: #333d4b;
   }
 }
+
+
+@media only screen and (max-width: 480px) {
+  .countries{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &__cards{
+      flex-direction: column;
+    }
+    &__card{
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

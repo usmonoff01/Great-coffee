@@ -29,12 +29,34 @@
     /* or 167% */
 
     color: #ffffff;
-    span{
-        color: #0E8784;
+    span {
+      color: #0e8784;
     }
   }
-  &__btn{
+  &__btn {
     @include Btn();
     margin: 40px 0 168px 510px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .order {
+    &__continer {
+      padding: 25px;
+      width: 80%;
+      height: 300px;
+      border-radius: 8px;
+    }
+
+    &__text2 {
+      width: 80%;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 24px;
+      line-height: 40px;
+      /* or 167% */
+
+      color: #ffffff;
+    }
   }
 }
