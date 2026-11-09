@@ -1,6 +1,6 @@
 .countries {
   &__continer {
-    margin-top: 168px;
+    margin-top: 18px;
     padding: 85px;
   }
   &__title {
@@ -64,5 +64,8 @@
       align-items: center;
       justify-content: center;
     }
+  }
+  .countries__title{
+    margin-left: 50px;
   }
 }

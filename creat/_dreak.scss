@@ -143,6 +143,9 @@
 
 @media only screen and (max-width: 480px) {
   .dreak {
+    &__left{
+      display: none;
+    }
     &__continer{
       display: block;
     }

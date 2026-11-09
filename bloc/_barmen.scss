@@ -1,5 +1,5 @@
 .about__barmen {
-  margin-top: 148px;
+  margin-top: 18px;
   display: flex;
   align-items: center;
   gap: 40px;
@@ -41,7 +41,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    padding: 0;
     &_title {
       font-style: normal;
       font-weight: 900;
@@ -66,7 +66,5 @@
       mix-blend-mode: normal;
       opacity: 0.8;
     }
-
-    
   }
 }
