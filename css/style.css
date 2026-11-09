@@ -1052,6 +1052,9 @@ hr {
   border-radius: 8px;
   background-color: #979797;
 }
+.dreak__card:hover {
+  background-color: #fdd6ba;
+}
 
 #bg_color1 {
   background-color: #0e8784;
@@ -1104,6 +1107,9 @@ hr {
   .dreak__card {
     width: 400px;
     background-color: white;
+  }
+  .dreak__card:hover {
+    background-color: #fdd6ba;
   }
 }
 .order__continer {

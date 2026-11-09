@@ -123,6 +123,9 @@
     height: 250px;
     border-radius: 8px;
     background-color: #979797;
+    &:hover {
+      background-color: #fdd6ba;
+    }
   }
 }
 
@@ -143,10 +146,10 @@
 
 @media only screen and (max-width: 480px) {
   .dreak {
-    &__left{
+    &__left {
       display: none;
     }
-    &__continer{
+    &__continer {
       display: block;
     }
     &__right {
@@ -172,14 +175,17 @@
       font-size: 24px;
       line-height: 28px;
       /* or 117% */
-
+      
       color: #83888f;
-    
+
     }
 
     &__card {
       width: 400px;
       background-color: white;
+      &:hover{
+        background-color: #fdd6ba;
+      }
     }
   }
 }
