@@ -60,3 +60,22 @@
     }
   }
 }
+
+
+
+@media only screen and (max-width: 912px) {
+  .footer {
+    &__contener{
+      width: 100%;
+      margin-top: 50px;
+      flex-direction: column;
+      gap: 50px;
+    }
+    &__list{
+      // flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+  }
+}

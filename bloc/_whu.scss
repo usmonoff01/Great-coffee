@@ -61,6 +61,7 @@
       font-size: 24px;
       line-height: 32px;
       text-align: center;
+      color: white;
     }
     &_subtitle {
       font-family: "Barlow";
@@ -116,6 +117,78 @@
       justify-content: center;
       align-items: center;
       border-radius: 8px;
+    }
+  }
+}
+
+@media only screen and (max-width: 912px) {
+  .whu {
+    &__continer {
+      height: 700px;
+      border-radius: 8px;
+    }
+    &__title {
+      width: 100%;
+      font-weight: 900;
+      font-size: 28px;
+      line-height: 28px;
+      /* identical to box height, or 100% */
+      text-align: center;
+
+      color: #fefcf7;
+    }
+    &__text {
+      width: 60%;
+      font-style: normal;
+      font-weight: 400;
+      
+      font-size: 20px;
+      line-height: 35px;
+      /* or 167% */
+      text-align: center;
+
+      color: #fefcf7;
+
+      mix-blend-mode: normal;
+      opacity: 0.8;
+    }
+
+    &__cards {
+      flex-direction: column;
+      margin-top: 64px;
+    }
+    &__card {
+      height: 250px;
+      flex-direction: row;
+      width: 100%;
+      border-radius: 12px;
+      gap: 70px;
+      &_text {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 28px;
+        line-height: 32px;
+        /* identical to box height, or 133% */
+
+        color: #fefcf7;
+      }
+      &_subtitle {
+        text-align: start;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+        /* or 167% */
+
+        color: #fefcf7;
+      }
+    }
+    &__top {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      gap: 30px;
+      width: 45%;
     }
   }
 }

@@ -75,6 +75,28 @@
       mix-blend-mode: normal;
       opacity: 0.8;
     }
+  }
+}
 
+@media only screen and (max-width: 912px) {
+  .about {
+    border-radius: 12px;
+    gap: 50px;
+    &__title {
+      font-style: normal;
+      font-weight: 900;
+      font-size: 32px;
+      line-height: 40px;
+      /* identical to box height, or 125% */
+
+      color: #fefcf7;
+    }
+    &__text {
+      width: 50%;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 25px;
+    }
   }
 }

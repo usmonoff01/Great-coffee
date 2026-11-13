@@ -10,7 +10,7 @@
     font-family: "Barlow";
     font-style: normal;
     font-weight: 700;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 15px;
     /* identical to box height, or 125% */
     letter-spacing: 0.923077px;
@@ -123,5 +123,12 @@
     &__btn{
       margin: auto;
     }
+  }
+}
+
+
+@media only screen and (max-width: 912px) {
+  .intro{
+    padding: 110px 90px;
   }
 }

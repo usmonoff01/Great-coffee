@@ -68,3 +68,24 @@
     }
   }
 }
+
+@media only screen and (max-width: 912px) {
+  .about__barmen {
+    &_img {
+      height: 100%;
+    }
+    &_text {
+      width: 410px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 25px;
+      /* or 167% */
+
+      color: #333d4b;
+
+      mix-blend-mode: normal;
+      opacity: 0.8;
+    }
+  }
+}

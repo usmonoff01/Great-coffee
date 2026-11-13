@@ -131,17 +131,29 @@
 
 #bg_color1 {
   background-color: #0e8784;
+  &:hover{
+    background-color: #fdd6ba;
+  }
 }
 #bg_color2 {
   background-color: #0e8784;
+    &:hover{
+    background-color: #fdd6ba;
+  }
 }
 
 #bg_color3 {
   background-color: #0e8784;
+    &:hover{
+    background-color: #fdd6ba;
+  }
 }
 
 #bg_color4 {
   background-color: #0e8784;
+    &:hover{
+    background-color: #fdd6ba;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -175,17 +187,27 @@
       font-size: 24px;
       line-height: 28px;
       /* or 117% */
-      
-      color: #83888f;
 
+      color: #83888f;
     }
 
     &__card {
       width: 400px;
       background-color: white;
-      &:hover{
+      &:hover {
         background-color: #fdd6ba;
       }
+    }
+  }
+}
+
+@media only screen and (max-width: 912px) {
+  .dreak {
+    &__left {
+      display: none;
+    }
+    &__right {
+      margin-left: 15%;
     }
   }
 }
